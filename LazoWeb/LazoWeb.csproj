@@ -158,6 +158,42 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\page-1_0000s_0000_Rounded-Rectangle-4-copy-3.png" />
+    <Content Include="Content\img\page-1_0000_google-store.png" />
+    <Content Include="Content\img\page-1_0001s_0000_Rounded-Rectangle-3.png" />
+    <Content Include="Content\img\page-1_0001_Rounded-Rectangle-4-copy-4.png" />
+    <Content Include="Content\img\page-1_0002_Rounded-Rectangle-4.png" />
+    <Content Include="Content\img\page-1_0003s_0000_Layer-10.png" />
+    <Content Include="Content\img\page-1_0003s_0001_Layer-8.png" />
+    <Content Include="Content\img\page-1_0003s_0002_Layer-9.png" />
+    <Content Include="Content\img\page-1_0003_windows-store.png" />
+    <Content Include="Content\img\page-1_0004s_0000_testimonial-bg.png" />
+    <Content Include="Content\img\page-1_0004_Rounded-Rectangle-4-copy-2.png" />
+    <Content Include="Content\img\page-1_0005_apple-store.png" />
+    <Content Include="Content\img\page-1_0006_Rounded-Rectangle-4-copy.png" />
+    <Content Include="Content\img\page-1_0007_Rectangle-8-copy.png" />
+    <Content Include="Content\img\page-1_0008_bg.png" />
+    <Content Include="Content\img\page-1_0009_Rectangle-8-copy-2.png" />
+    <Content Include="Content\img\page-1_0011_fb.png" />
+    <Content Include="Content\img\page-1_0012_Twitter.png" />
+    <Content Include="Content\img\page-1_0013_pinterest.png" />
+    <Content Include="Content\img\page-1_0014_instar.png" />
+    <Content Include="Content\img\page-1_0015_Layer-23.png" />
+    <Content Include="Content\img\page-1_0016_Layer-25.png" />
+    <Content Include="Content\img\page-1_0017_Rectangle-5.png" />
+    <Content Include="Content\img\page-1_0018_-copy.png" />
+    <Content Include="Content\img\page-1_0019_.png" />
+    <Content Include="Content\img\page-1_0021_3.1-Notification.png" />
+    <Content Include="Content\img\page-1_0023_abc-pic.png" />
+    <Content Include="Content\img\page-1_0024_Ellipse-1-copy-2.png" />
+    <Content Include="Content\img\page-1_0025_Ellipse-1.png" />
+    <Content Include="Content\img\page-1_0026_eraser_pink-copy.png" />
+    <Content Include="Content\img\page-1_0027_eraser_pink.png" />
+    <Content Include="Content\img\page-1_0028_wood_pencil.png" />
+    <Content Include="Content\img\page-1_0029_coffee_cup.png" />
+    <Content Include="Content\img\page-1_0030_iphone_cutout.png" />
+    <Content Include="Content\img\page-1_0031_logo-trang.png" />
+    <Content Include="Content\img\page-1_0032_The-Third-Eye-Of-Manager.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -195,6 +231,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\css\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
