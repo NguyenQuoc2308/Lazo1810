@@ -26,5 +26,6 @@ namespace LazoWeb.Controllers
 
             return View();
         }
+
     }
 }
