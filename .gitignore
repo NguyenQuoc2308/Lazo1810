@@ -4,3 +4,7 @@
 
 /.vs/config
 /.vs
+/LazoWeb/bin/roslyn
+/LazoWeb/bin
+/LazoWeb/obj/Debug
+/packages
