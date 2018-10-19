@@ -17,8 +17,10 @@
 </head>
 <body>
     
-    <div class="container body-content">
+    <div>
+        @Html.Partial("_MenuHeader")
         @RenderBody()
+        @Html.Partial("Footer")
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
