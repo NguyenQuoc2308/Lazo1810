@@ -158,6 +158,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\footer.css" />
     <Content Include="Content\img\page-1_0000s_0000_Rounded-Rectangle-4-copy-3.png" />
     <Content Include="Content\img\page-1_0000_google-store.png" />
     <Content Include="Content\img\page-1_0001s_0000_Rounded-Rectangle-3.png" />
@@ -232,10 +233,10 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Footer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\css\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
