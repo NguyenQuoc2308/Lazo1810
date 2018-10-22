@@ -4,16 +4,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
-    <link href="~/Content/bootstrap.css" rel="stylesheet" />
-    <link href="~/Content/css/StyleFeedback.css" rel="stylesheet" />
-    
+
     <title>@ViewBag.Title</title>
     @*link css bootstrap*@
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     @*css informationsLazo*@
     <link href="~/Content/css/informationsLazo.css" rel="stylesheet" />
     @*css typicalkhachhang*@
     <link href="~/Content/css/typicalkhachhang.css" rel="stylesheet" />
+    @*css customersfeedback*@
+    <link href="~/Content/css/StyleFeedback.css" rel="stylesheet" />
     @*css footer*@
     <link href="~/Content/css/footer.css" rel="stylesheet" />
 </head>
@@ -26,8 +28,6 @@
     @Html.Partial("/Views/Shared/_FooterPartial.cshtml")
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
-    <script src="~/Scripts/bootstrap.js"></script>
-    <script src="~/Scripts/jquery-3.3.1.js"></script>
     <script src="~/Scripts/js/feedback.js"></script>
     @RenderSection("scripts", required: false)
 </body>
