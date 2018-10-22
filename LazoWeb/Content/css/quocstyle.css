@@ -1,0 +1,124 @@
+﻿#menu-header {
+    background-color: #5f84fd;
+    height:80px;
+    margin-top:0px;
+}
+
+#menu-header-logo{
+    padding-left:60px;
+    padding-top:30px;
+}
+
+.menu-header-left a{
+    color:white;
+    padding-right:10px;    
+}
+.menu-header-left {
+    text-align: right;
+    padding-top: 30px;
+    margin-right: 20px;
+}
+.menu-header-left a:hover{
+    color:orange;
+}
+.menu-header-left #btnEnglish{
+    color:black;
+    background-color:#eee50e;
+    padding-left:17px;
+    padding-right:17px;
+    margin-left:20px;
+}
+.menu-header-left a#menu-icon{
+    display:none;
+}
+@media only screen and (max-width:1000px) {
+    .menu-header-left a {
+        color: white;
+        padding-right: 5px;
+        font-size:12px;
+    }
+
+    .menu-header-left {
+        text-align: right;
+        padding-top: 30px;
+        margin-right: 5px;
+    }
+        .menu-header-left #btnEnglish {
+            color: black;
+            background-color: #eee50e;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-left: 5px;
+        }
+}
+@media only screen and (max-width:800px) {
+    .menu-header-left a {
+        color: white;
+        padding-right:2px;
+        font-size: 0.7em;
+    }
+    .menu-header-left {
+        text-align: right;
+        padding-top: 30px;
+        margin-right: 2px;
+    }
+
+        .menu-header-left #btnEnglish {
+            color: black;
+            background-color: #eee50e;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-left: 2px;
+        }
+}
+@media only screen and (max-width:600px) {
+        .menu-header-left a:not(:empty) {
+            display: none;
+        }
+
+        .menu-header-left a#menu-icon {
+            float: right;
+            display:block;
+        }
+}
+
+@media only screen and (max-width:600px) {
+        .menu-header-left .quocjs {
+            position: relative;
+        }
+
+            .menu-header-left .quocjs a#menu-icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+                
+            }
+
+            .menu-header-leftquocjs a {
+                text-align: right;
+                display:block;
+                color:white;
+            }
+            .menu-header-leftquocjs a:hover{
+                color:orange;
+            }
+            .menu-header-leftquocjs a.gach{
+                display:none;
+            }
+            .menu-header-leftquocjs a#btnEnglish{
+                color:black;
+                background-color:#eee50e;
+                padding-left:10px;
+                padding-right:10px;
+                margin-left:65%;
+            }
+            
+            #menu-header{
+                height:auto;
+            }
+            
+#icon{
+    padding-top:15px;
+    font-size:large;
+}
+
