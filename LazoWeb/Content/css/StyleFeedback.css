@@ -1,81 +1,253 @@
 ﻿body {
 }
-/* Carousel */
+#customers-feedback{
+    background-image: url('/Content/img/page-1_0004s_0000_testimonial-bg.png');
+    height:410px;
+    background-size:cover;
+}
+.multi-item-carousel {
+    .carousel-inner
 
-#quote-carousel {
-    padding: 0 10px 30px 10px;
-    margin-top: 30px;
-    /* Control buttons  */
-    /* Previous button  */
-    /* Next button  */
-    /* Changes the position of the indicators */
-    /* Changes the color of the indicators */
-}
-#quote-carousel .carousel-control {
-    background: none;
-    color: #CACACA;
-    font-size: 2.3em;
-    text-shadow: none;
-    margin-top: 30px;
-}
-#quote-carousel .carousel-control.left {
-    left: -60px;
-}
-#quote-carousel .carousel-control.right {
-    right: -60px;
-}
-#quote-carousel .carousel-indicators {
-    padding-bottom:150px;
+{
+    > .item
+
+{
+    transition: 500ms ease-in-out left;
 }
 
+.active {
+    &.left
 
-#quote-carousel .carousel-indicators li {
-    width: 100px;
-    height: 100px;
-    margin: 5px;
-    cursor: pointer;
-    border: 4px solid #CCC;
-    border-radius: 50px;
-    opacity: 0.4;
-    overflow: hidden;
-    transition: all 0.4s;
+{
+    left: -33%;
 }
-#quote-carousel .carousel-indicators .active {
-    background: #333333;
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    border-color: #f33;
-    opacity: 1;
-    overflow: hidden;
+
+&.right {
+    left: 33%;
 }
-.carousel-inner {
-    min-height: 300px;
+
 }
-.carousel-inner .item{
-    padding-top:150px;
+
+.next {
+    left: 33%;
 }
-.item blockquote {
-    border-left: none;
-    margin: 0;
+
+.prev {
+    left: -33%;
 }
-.item blockquote p:before {
-    content: "\f10d";
-    font-family: 'Fontawesome';
-    float: left;
-    margin-right: 10px;
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+    > .item {
+        // use your favourite prefixer here transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none !important;
+    }
+}
+
+}
+
+.carouse-control {
+    &.left, &.right
+
+{
+    background-image: none;
+}
+
+}
+}
+
+// non-related styling:
+body {
+    background: #333;
+    color: #ddd;
+}
+
+h1 {
+    color: white;
+    font-size: 2.25em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
 }
 
 /*css for Download app*/
+@font-face {
+    font-family: 'UTM Avo';
+    src: url('../../fonts/UTM Avo.ttf') format('truetype');
+}
+
 #free-experiencing {
     height: 240px;
     background-color: #6084fe;
+    display: block;
 }
-#free-experiencing #text-content{
+
+#free-experiencing-text-content {
     color: white;
     padding-left: 145px;
     padding-top: 75px;
 }
-    #free-experiencing #text-content  h2{
-        
+
+    #free-experiencing-text-content h2 {
+        font-family: 'UTM Avo';
+        font-size: 35px;
     }
+
+    #free-experiencing-text-content p {
+        font-size: 18px;
+        font-family: Arial;
+    }
+
+#free-experiencing-button-singup button {
+    font-size: 15pt;
+    border-radius: 20px;
+    margin-top: 90px;
+    border: none;
+    background-color: white;
+    height: 40px;
+    width: 140px;
+}
+
+    #free-experiencing-button-singup button:hover {
+        background-color: lightgray;
+    }
+
+#download-app {
+    background: linear-gradient(0deg,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.36)),url('/Content/img/page-1_0008_bg.png');
+    height: 550px;
+    background-size: cover;
+    color: white;
+    display: block;
+}
+
+#download-app-text-content {
+    padding-top: 155px;
+}
+
+    #download-app-text-content h2 {
+        font-family: 'UTM Avo';
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+
+    #download-app-text-content p {
+        font-size: 18px;
+        font-family: Arial;
+        padding-left: 310px;
+        padding-right: 310px;
+    }
+
+#download-app-buttons {
+    margin-top: 50px;
+}
+
+    #download-app-buttons #btn-left {
+        text-align: right;
+    }
+
+    #download-app-buttons #btn-center {
+        text-align: center;
+    }
+
+    #download-app-buttons #btn-right {
+        text-align: left;
+    }
+
+    #download-app-buttons a {
+        background-color: #5f84fd;
+        width: 185px;
+        height:45px;
+        border-radius: 20px;
+        border-color: white;
+    }
+
+        #download-app-buttons a:hover {
+            background-color: #2a47d0;
+        }
+
+
+@media only screen and (max-width: 1094px) {
+    #download-app-text-content p {
+        padding-left: 210px;
+        padding-right: 210px;
+    }
+}
+
+@media only screen and (max-width: 919px) {
+    #free-experiencing-text-content h2 {
+        font-size: 30px;
+    }
+
+    #free-experiencing-text-content p {
+        font-size: 13px;
+    }
+
+    #free-experiencing-button-singup button {
+        font-size: 12pt;
+        border-radius: 20px;
+        height: 35px;
+        width: 130px;
+    }
+    #download-app-text-content p {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #free-experiencing-text-content {
+        text-align: center;
+        padding-left: 0;
+        padding-top: 50px;
+    }
+
+    #free-experiencing-button-singup {
+        text-align: center;
+    }
+
+        #free-experiencing-button-singup button {
+            margin: 0;
+        }
+    #download-app-text-content {
+        padding-top: 100px;
+    }
+    #download-app-buttons #btn-left {
+        text-align: center;
+        margin-bottom:10px;
+    }
+
+    #download-app-buttons #btn-center {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #download-app-buttons #btn-right {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    #download-app-text-content h2 {
+        font-size: 30px;
+    }
+    #download-app-text-content p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    #free-experiencing-text-content h2 {
+        font-size: 25px;
+    }
+
+    #free-experiencing-text-content p {
+        font-size: 8pt;
+    }
+
+    #download-app-text-content p {
+        padding-left:30px;
+        padding-right:30px;
+    }
+}
