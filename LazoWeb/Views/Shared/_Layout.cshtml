@@ -10,21 +10,20 @@
     <title>@ViewBag.Title</title>
     @*link css bootstrap*@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    @*css informationsLazo*@
+    <link href="~/Content/css/informationsLazo.css" rel="stylesheet" />
+    @*css typicalkhachhang*@
+    <link href="~/Content/css/typicalkhachhang.css" rel="stylesheet" />
     @*css footer*@
     <link href="~/Content/css/footer.css" rel="stylesheet" />
 </head>
 <body>
 
     <div>
-        @Html.Partial("_MenuHeader")
+        @*@Html.Partial("_MenuHeader")*@
         @RenderBody()
-        @Html.Partial("Footer")
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
     </div>
-
+    @Html.Partial("/Views/Shared/_FooterPartial.cshtml")
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     <script src="~/Scripts/bootstrap.js"></script>

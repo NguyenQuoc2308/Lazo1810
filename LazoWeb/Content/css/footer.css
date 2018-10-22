@@ -1,5 +1,5 @@
 ﻿body {
-    font-family: Tahoma;
+    font-family: Arial;
 }
 
 .list-footer {
@@ -7,8 +7,10 @@
 }
 
 .footer-content {
-    padding: 0px 8.5% 53px 8.5%;
+    padding-left: 16.25%;
+    padding-right: 14.25%;
     width: 100%;
+    height: 288px;
 }
 
 /*css footer-left*/
@@ -16,32 +18,38 @@
     color: #fff;
 }
 
-    .footer-left h5 {
-        padding-top: 10px;
+    .footer-left h3 {
+        font-size: 24px;
+        padding-bottom: 7px;
+        font-weight: bold;
     }
 
-        .footer-left h5 a {
+    .footer-left h5 a {
+        text-decoration: none;
+        font-family: 18px;
+        color: #fff;
+    }
+
+        .footer-left h5 a:hover {
             text-decoration: none;
-            color: #fff;
+            font-weight: bold;
         }
 
-            .footer-left h5 a:hover {
-                text-decoration: none;
-                font-weight: bold;
-            }
-
 .footer-left {
-    padding-top: 53px;
+    padding-top: 57px;
+    padding-bottom: 42px;
 }
 
 ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
+    padding-bottom: 16px;
 }
 
     ul li {
-        font-size: 13px;
+        font-size: 12px;
+        padding-bottom: 2px;
     }
 
 hr {
@@ -55,19 +63,25 @@ hr {
 
 /*css footer right*/
 .footer-right {
-    padding-top: 69px;
-    text-align: right
+    padding-top: 91px;
+    text-align: right;
+    padding-bottom: 10px;
 }
 
 .footer-right-bottom p {
     color: #fff;
     font-size: 14px;
+    padding-bottom: 2px;
 }
 
-    .footer-right-bottom p a:hover {
-        text-decoration: none;
-        font-weight: bold;
+    .footer-right-bottom p a {
+        font-size: 16px;
     }
+
+        .footer-right-bottom p a:hover {
+            text-decoration: none;
+            font-weight: bold;
+        }
 
 .image {
     padding-bottom: 13px;
@@ -86,9 +100,16 @@ hr {
         padding-top: 16px;
         text-align: center;
     }
+
     hr {
         visibility: inherit;
         opacity: 0.5;
+    }
+    .footer-content {
+        height: auto;
+    }
+    .footer-left {
+        padding-bottom: 2px;
     }
 }
 
