@@ -1,83 +1,90 @@
 ﻿body {
 }
-#customers-feedback{
-    background-image: url('/Content/img/page-1_0004s_0000_testimonial-bg.png');
-    height:410px;
-    background-size:cover;
-}
-.multi-item-carousel {
-    .carousel-inner
-
-{
-    > .item
-
-{
-    transition: 500ms ease-in-out left;
-}
-
-.active {
-    &.left
-
-{
-    left: -33%;
-}
-
-&.right {
-    left: 33%;
-}
-
-}
-
-.next {
-    left: 33%;
-}
-
-.prev {
-    left: -33%;
-}
-
-@media all and (transform-3d), (-webkit-transform-3d) {
-    > .item {
-        // use your favourite prefixer here transition: 500ms ease-in-out left;
-        transition: 500ms ease-in-out all;
-        backface-visibility: visible;
-        transform: none !important;
-    }
-}
-
-}
-
-.carouse-control {
-    &.left, &.right
-
-{
-    background-image: none;
-}
-
-}
-}
-
-// non-related styling:
-body {
-    background: #333;
-    color: #ddd;
-}
-
-h1 {
-    color: white;
-    font-size: 2.25em;
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 2em;
-    text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
-}
-
-/*css for Download app*/
 @font-face {
     font-family: 'UTM Avo';
     src: url('../../fonts/UTM Avo.ttf') format('truetype');
 }
+#customers-feedback{
+    background-image: url('/Content/img/page-1_0004s_0000_testimonial-bg.png');
+    height:410px;
+    background-size:cover;
+    background-position:center;
+}
+#customers-feedback-title{
+    text-align:center;
+    color: white;
+    padding-top:40px;
+}
+#customers-feedback-title h2{
+    font-family: 'UTM Avo';
+    font-size:35px;
+}
 
+/* Carousel */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    color:white;
+}
+
+    #quote-carousel .carousel-control {
+        background: none;
+        color: #CACACA;
+        font-size: 2.3em;
+        text-shadow: none;
+        margin-top: 30px;
+    }
+
+        #quote-carousel .carousel-control.left {
+            margin-left:25%;
+        }
+
+        #quote-carousel .carousel-control.right {
+            margin-right: 25%;
+        }
+
+    #quote-carousel .carousel-indicators {
+        width:300px;
+        top: auto;
+        bottom: 0px;
+        margin-right: -19px;
+        position:relative;
+        margin:auto;
+    }
+
+        #quote-carousel .carousel-indicators li {
+            width: 80px;
+            height: 80px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 50px;
+            opacity: 0.4;
+            overflow: hidden;
+            transition: all 0.4s;
+        }
+
+        #quote-carousel .carousel-indicators .active {
+            opacity: 1;
+            overflow: hidden;
+        }
+
+.carousel-inner {
+    margin-top:30px;
+    min-height: 300px;
+    text-align:center;
+}
+
+#customers-feedback-slide h3 {
+    font-family: 'UTM Avo';
+    font-size: 20px;
+    color: #b1c1f6;
+}
+#customers-feedback-slide p {
+    font-family: 'UTM Avo';
+    font-size: 16px;
+}
+/*css for Download app*/
 #free-experiencing {
     height: 240px;
     background-color: #6084fe;
@@ -118,6 +125,7 @@ h1 {
     background: linear-gradient(0deg,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.36)),url('/Content/img/page-1_0008_bg.png');
     height: 550px;
     background-size: cover;
+    background-position: center;
     color: white;
     display: block;
 }
@@ -194,6 +202,25 @@ h1 {
         padding-left: 100px;
         padding-right: 100px;
     }
+
+    #customers-feedback-title h2 {
+        font-size: 30px;
+    }
+    #customers-feedback-slide h3 {
+        font-size: 18px;
+    }
+
+    #customers-feedback-slide p {
+        font-size: 13px;
+    }
+    #quote-carousel .carousel-control.left {
+        margin-left: 20%;
+    }
+
+    #quote-carousel .carousel-control.right {
+        margin-right: 20%;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -205,6 +232,7 @@ h1 {
 
     #free-experiencing-button-singup {
         text-align: center;
+        padding-top: 15px;
     }
 
         #free-experiencing-button-singup button {
@@ -235,19 +263,49 @@ h1 {
     #download-app-text-content p {
         font-size: 13px;
     }
-}
+    #quote-carousel .carousel-control.left {
+        margin-left: 10%;
+    }
 
+    #quote-carousel .carousel-control.right {
+        margin-right: 10%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .carousel-inner .item{
+        padding-right:70px;
+    }
+
+
+}
 @media only screen and (max-width: 525px) {
     #free-experiencing-text-content h2 {
         font-size: 25px;
     }
-
     #free-experiencing-text-content p {
         font-size: 8pt;
     }
 
     #download-app-text-content p {
-        padding-left:30px;
-        padding-right:30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #customers-feedback-title h2 {
+        font-size: 25px;
+    }
+
+    #customers-feedback-slide h3 {
+        font-size: 16px;
+    }
+
+    #customers-feedback-slide p {
+        font-size: 8pt;
+    }
+    #quote-carousel .carousel-control.left {
+        margin-left: 5%;
+    }
+
+    #quote-carousel .carousel-control.right {
+        margin-right: 5%;
     }
 }

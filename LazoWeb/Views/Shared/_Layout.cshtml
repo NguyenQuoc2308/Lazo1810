@@ -14,7 +14,7 @@
     <link href="~/Content/css/footer.css" rel="stylesheet" />
 </head>
 <body>
-    
+
     <div>
         @Html.Partial("_MenuHeader")
         @RenderBody()
@@ -27,6 +27,9 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/js/feedback.js"></script>
     @RenderSection("scripts", required: false)
 </body>
 </html>
