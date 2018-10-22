@@ -202,6 +202,10 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\UTM Avo.ttf" />
+    <Content Include="fonts\UTM AvoBold.ttf" />
+    <Content Include="fonts\UTM AvoBold_Italic.ttf" />
+    <Content Include="fonts\UTM AvoItalic.ttf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
