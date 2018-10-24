@@ -158,8 +158,11 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\informationsLazo.css" />
+    <Content Include="Content\css\quocstyle.css" />
     <Content Include="Content\css\StyleFeedback.css" />
     <Content Include="Content\css\footer.css" />
+    <Content Include="Content\css\typicalkhachhang.css" />
     <Content Include="Content\fontawesome-free-5.4.1-web\fontawesome-free-5.4.1-web\css\all.css" />
     <Content Include="Content\fontawesome-free-5.4.1-web\fontawesome-free-5.4.1-web\css\all.min.css" />
     <Content Include="Content\fontawesome-free-5.4.1-web\fontawesome-free-5.4.1-web\css\brands.css" />
