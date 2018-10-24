@@ -26,8 +26,8 @@
 
     .footer-left h5 a {
         text-decoration: none;
-        font-family: 18px;
         color: #fff;
+        font-family: 18px;
     }
 
         .footer-left h5 a:hover {
@@ -105,9 +105,11 @@ hr {
         visibility: inherit;
         opacity: 0.5;
     }
+
     .footer-content {
         height: auto;
     }
+
     .footer-left {
         padding-bottom: 2px;
     }

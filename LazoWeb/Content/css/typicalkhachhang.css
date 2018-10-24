@@ -1,6 +1,11 @@
 ﻿body {
 }
-
+@font-face {
+    font-family: utm avo;
+    src: url('~/fonts/UTM Avo.ttf') format(‘truetype’);
+    font-weight: normal;
+    font-style: normal;
+}
 .khachangtieubieu {
     margin: auto;
     padding: 3% 1.3% 0% 6.2%;
@@ -24,7 +29,7 @@
     }
     .noidungkhachhang h2 {
         font-size: 42px;
-        font-family: 'Times New Roman';
+        font-family: 'utm avo';
     }
 
 .imagetypical {
