@@ -1620,10 +1620,6 @@
     <Content Include="Content\img\page-1_0030_iphone_cutout.png" />
     <Content Include="Content\img\page-1_0031_logo-trang.png" />
     <Content Include="Content\img\page-1_0032_The-Third-Eye-Of-Manager.png" />
-    <Content Include="Content\img\test\2.png" />
-    <Content Include="Content\img\test\3.png" />
-    <Content Include="Content\img\test\4.png" />
-    <Content Include="Content\img\test\1.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -1722,6 +1718,9 @@
     <Content Include="Views\Home\DownloadApp.cshtml" />
     <Content Include="Views\Shared\_MenuHeader.cshtml" />
     <Content Include="Views\Home\Footer.cshtml" />
+    <Content Include="Views\Home\InformationsLazo.cshtml" />
+    <Content Include="Views\Home\TypicalKhachhang.cshtml" />
+    <Content Include="Views\Shared\_FooterPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,6 +1,11 @@
 ﻿body {
 }
-
+@font-face {
+    font-family: utm avo;
+    src: url('~/fonts/UTM Avo.ttf') format(‘truetype’);
+    font-weight: normal;
+    font-style: normal;
+}
 .infolazo {
     margin: auto;
     padding-left: 4.6%;
@@ -14,7 +19,7 @@
     .visao h2 {
         color: deepskyblue;
         font-size:42px;
-        font-family: 'Times New Roman';
+        font-family: 'utm avo';
         padding-bottom: 21px;
     }
 
@@ -27,7 +32,7 @@
 .tinhnang h2 {
     color: deepskyblue;
     font-size: 42px;
-    font-family: 'Times New Roman';
+    font-family: 'utm avo';
 }
 
 .tinhnang ul li {
