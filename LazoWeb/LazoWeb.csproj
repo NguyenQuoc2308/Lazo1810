@@ -239,7 +239,6 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_MenuHeader.cshtml" />
-    <Content Include="Views\Home\Footer.cshtml" />
     <Content Include="Views\Home\InformationsLazo.cshtml" />
     <Content Include="Views\Home\TypicalKhachhang.cshtml" />
     <Content Include="Views\Shared\_FooterPartial.cshtml" />
