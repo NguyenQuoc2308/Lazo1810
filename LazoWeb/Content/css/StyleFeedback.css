@@ -287,6 +287,12 @@ CC 2.0 License Iatek LLC 2018
 Attribution required
 
 */
+.carousel-inner .carousel-item{
+    opacity: 0.7;
+}
+.carousel-inner .active{
+    opacity: 1;
+}
 @media (min-width: 768px) {
     /* show 3 items */
     .carousel-inner .active, .carousel-inner .active + .carousel-item, .carousel-inner .active + .carousel-item + .carousel-item {
