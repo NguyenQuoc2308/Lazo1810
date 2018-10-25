@@ -79,7 +79,7 @@ $(document).ready(function () {
         for (i = 0; i < number; i++) {
             if (id == arrComment[i].ID) {
                 if (i == 3) {
-                    i=0;
+                    i = 0;
                     Name = arrComment[i].Name;
                     Company = arrComment[i].Company;
                     Comment = arrComment[i].Comment;
