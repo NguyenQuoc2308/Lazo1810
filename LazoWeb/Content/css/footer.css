@@ -58,9 +58,6 @@ hr {
     visibility: hidden;
 }
 
-
-
-
 /*css footer right*/
 .footer-right {
     padding-top: 91px;
@@ -76,6 +73,7 @@ hr {
 
     .footer-right-bottom p a {
         font-size: 16px;
+        color: #5f84fd;
     }
 
         .footer-right-bottom p a:hover {
