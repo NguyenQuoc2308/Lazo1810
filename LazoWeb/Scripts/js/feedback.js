@@ -10,17 +10,17 @@
     var $e = $(e.relatedTarget);
     var idx = $e.index();
     var itemsPerSlide = 3;
-    var totalItems = $('.carousel-item').length;
+    var totalItems = $('#customers-feedback .carousel-item').length;
 
     if (idx >= totalItems - (itemsPerSlide - 1)) {
         var it = itemsPerSlide - (totalItems - idx);
         for (var i = 0; i < it; i++) {
             // append slides to end
             if (e.direction == "left") {
-                $('.carousel-item').eq(i).appendTo('.carousel-inner');
+                $('#customers-feedback .carousel-item').eq(i).appendTo('#customers-feedback .carousel-inner');
             }
             else {
-                $('.carousel-item').eq(0).appendTo('.carousel-inner');
+                $('#customers-feedback .carousel-item').eq(0).appendTo('#customers-feedback .carousel-inner');
             }
         }
     }
@@ -41,7 +41,7 @@ $(document).ready(function () {
         }
     ];
 
-    $('a.carousel-control-prev').click(function () {
+    $('#customers-feedback a.carousel-control-prev').click(function () {
         var id = $('#carouselExample .carousel-inner .active').attr('data-id');
         var Name;
         var Company;
@@ -70,7 +70,7 @@ $(document).ready(function () {
         $('#feedback-content h4').html(Name + " | " + Company);
         $('#feedback-content p').html(Comment);
     });
-    $('a.carousel-control-next').click(function () {
+    $('#customers-feedback a.carousel-control-next').click(function () {
         var id = $('#carouselExample .carousel-inner .active').attr('data-id');
         var Name;
         var Company;

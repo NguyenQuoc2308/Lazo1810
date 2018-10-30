@@ -35,13 +35,13 @@
         #menu-top li#btn-english a:hover {
             background-color: #fcb41d;
         }
-
-@media only screen and (max-width: 991px) {
+@media only screen and ( max-width: 1091px){
     #menu-top .character {
         display: none;
     }
+
     #menu-top li#btn-english {
         color: black;
-        margin-left: 0px;
+        margin-left: -8px;
     }
 }
